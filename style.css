@@ -1,0 +1,53 @@
+body{
+    background-image: url("./background.jpg");
+}
+.div1,
+.div2{
+    display: grid;
+}
+.maindiv1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tl1{
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+}
+.div1 input,
+.div2 input{
+    margin-bottom: 8px;
+    margin-top: 40px;
+    width: 450px;
+    height: 90px;
+    border: solid black 3px;
+    text-align: center;
+    font-weight: bolder;
+}
+.div1 select,
+.div2 select{
+    width:460px;
+    height: 40px;
+    border: solid black 3px;
+    text-align: center;
+}
+.div3{
+    justify-content: space-evenly;
+    display: flex;
+}
+.bt1{
+    width: 200px;
+    margin-top: 40px;
+    height: 50px;
+    background-color: white;
+    border: solid black 3px;
+}
+.bt1:hover{
+    cursor: pointer;
+}
+.percent{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+}
